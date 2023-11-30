@@ -24,7 +24,7 @@ class Composite implements Component {
 
     @Override
     public void operation() {
-        System.out.println("Composite operation");
+        System.out.println("Ako ay isang composite na operasyon");
 
         // Performing recursive operation on child components
         for (Component child : children) {
